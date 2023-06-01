@@ -5,6 +5,7 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+
   theme: {
     container: {
       center: true,
@@ -13,6 +14,15 @@ module.exports = {
         md: '25px',
       }
     },
+
+
+    colors: {
+     primary:"#fd6e0a",
+     secend:"#15295f",
+     transparent: 'transparent',
+    },
+
+
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
