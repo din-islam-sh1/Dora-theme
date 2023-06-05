@@ -1,6 +1,8 @@
 // import compontes
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Service from "./components/Service";
+import Exp from "./components/Exp";
 
 export default function Home() {
   return (
@@ -9,9 +11,17 @@ export default function Home() {
       <Navbar />
       {/* Header - section ends */}
 
-      {/* Banner - setion starts */}
+      {/* Hero - setion starts */}
       <Hero />
-      {/* Banner - setion ends */}
+      {/* Hero - setion ends */}
+
+      {/* service - setion starts */}
+      <Service />
+      {/* service - setion ends */}
+
+      {/* Exp - setion starts */}
+      <Exp />
+      {/* Exp - setion ends */}
     </>
   );
 }

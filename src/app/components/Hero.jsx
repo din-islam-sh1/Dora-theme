@@ -64,6 +64,9 @@ const Hero = () => {
         </div>
       </div>
 
+     
+     
+     
       {/* hero pannel  for md to large devices*/}
 
       <div className="hero__panel hidden md:block lg:-mt-[6rem] mt-[3rem] ">
@@ -233,10 +236,8 @@ const Hero = () => {
 
       {/* hero pannel  for md to sm devices*/}
 
-      <div  className=" md:hidden">
+      <div className=" md:hidden">
         <div className="hero__panel sm:gap-x-5  p-5 grid grid-cols-1 sm:grid-cols-2  gap-y-7 ">
-         
-         
           <div className=" customShadow w-full py-4 rounded-full   flex justify-start items-center space-x-3  px-5">
             {/* logo */}
             <div className=" p-2 bg-primary  rounded-full shadow-md flex justify-center items-center  h-[4rem] w-[4rem]">
@@ -319,8 +320,6 @@ const Hero = () => {
               <p className=" text-primary "> Experience</p>
             </div>
           </div>
-
- 
 
           <div className="   sm:col-span-2 sm:w-[50%] sm:mx-auto  customShadow w-full py-4 rounded-full   flex justify-start items-center space-x-3  px-5">
             {/* logo */}
@@ -363,9 +362,6 @@ const Hero = () => {
               <p className=" text-primary "> Experience</p>
             </div>
           </div>
-    
-
-
         </div>
       </div>
       {/* ======================================== */}

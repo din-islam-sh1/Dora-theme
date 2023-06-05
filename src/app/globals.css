@@ -30,3 +30,6 @@ body {
 .customShadow{
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
 }
+.customShadow2{
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.04);
+}

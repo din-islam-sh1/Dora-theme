@@ -1,12 +1,14 @@
- import React from 'react'
- import Image from 'next/image'
- import Link from 'next/link'
- import logo from "../../img/logo.png";
- 
- function Navbar() {
-   return (
+"use client";
+
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import logo from "../../img/logo.png";
+
+function Navbar() {
+  return (
     <nav>
-          <div className="bg-transparent fixed w-full">
+      <div className="bg-transparent fixed w-full">
         <div className="container mx-auto">
           <div className="flex justify-between py-4">
             <div className="">
@@ -40,8 +42,7 @@
         </div>
       </div>
     </nav>
-   )
- }
- 
- export default Navbar
- 
+  );
+}
+
+export default Navbar;
