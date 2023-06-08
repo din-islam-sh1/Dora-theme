@@ -8,7 +8,7 @@ import logo from "../../img/logo.png";
 function Navbar() {
   return (
     <nav>
-      <div className="bg-transparent fixed w-full">
+      <div className="bg-transparent  w-full">
         <div className="container mx-auto">
           <div className="flex justify-between py-4">
             <div className="">
